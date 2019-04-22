@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
     res.send({'msg': 'happy browsing'})
 })
 
+app.get('/sam', (req, res) => {
+    res.send({'msg': 'happy browsing'})
+})
+
 app.listen(8080, () => {
     console.log('helloworld')
 })
